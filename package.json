@@ -27,7 +27,7 @@
         "storybook": "start-storybook -p 6006",
         "build-storybook": "build-storybook"
     },
-    "author": "",
+    "author": "<igorkhvorost@gmail.com>",
     "license": "MIT",
     "jest": {
         "setupFiles": [
@@ -89,6 +89,7 @@
         "react": "17.0.1",
         "react-dom": "17.0.1",
         "react-helmet": "^6.1.0",
+        "react-markdown": "^7.1.1",
         "react-redux": "^7.2.4",
         "react-refresh": "^0.10.0",
         "react-router-dom": "^5.2.0",
@@ -161,5 +162,6 @@
             "pre-commit": "cross-env yarn run lint && yarn test",
             "pre-push": "cross-env yarn run lint && yarn test"
         }
-    }
+    },
+    "repository": "git@github.com:Barash7/gitBrawser.git"
 }
